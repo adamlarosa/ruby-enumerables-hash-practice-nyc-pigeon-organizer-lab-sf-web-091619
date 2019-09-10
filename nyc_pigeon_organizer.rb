@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         
         if !pigeon_list.has_value?(key)
           pigeon_list[name][key] = attribute.to_s
+        end
         binding.pry
       }
       
