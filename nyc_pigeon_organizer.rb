@@ -9,9 +9,8 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name] = {}
         end
         if !pigeon_list.has_value?(key)
-          (pigeon_list[name][key] ||= []) << attribute.to_s # THIS IS THE TROUBLE LINE
+          (pigeon_list[name][key] ||= []) << attribute.to_s
         end
-        #binding.pry
       }
     }
   }
