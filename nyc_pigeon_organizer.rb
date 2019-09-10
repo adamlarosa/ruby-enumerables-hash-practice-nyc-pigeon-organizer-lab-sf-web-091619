@@ -7,9 +7,10 @@ def nyc_pigeon_organizer(data)
       names.each { |name|
       
         if pigeon_list.has_key?(name)
-          #binding.pry
+          
         elsif
           pigeon_list[name] = {}
+          binding.pry
         end
         
       
