@@ -10,6 +10,8 @@ def nyc_pigeon_organizer(data)
         end
         if !pigeon_list.has_value?(key)
           pigeon_list[name][key] = []
+        elsif
+          pigeon_list[name][key].push(attribute.to_s)
         end
         binding.pry
       }
