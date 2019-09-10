@@ -5,8 +5,13 @@ def nyc_pigeon_organizer(data)
   data.map { |key, value|
     
     value.each { |color, names|
+      
+      names.each { |name|
+      
+        binding.pry
+      
+      }
     
-    binding.pry
     }
   }
   pigon_list
