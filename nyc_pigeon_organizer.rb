@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     value.map { |attribute, names|
       names.map { |name|
         if !pigeon_list.has_key?(name)
-          pigeon_list[name] = {color: attribute}
+          pigeon_list[name] = {color => []}
         end
       }
       binding.pry
