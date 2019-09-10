@@ -7,8 +7,9 @@ def nyc_pigeon_organizer(data)
       names.map { |name|
         if !pigeon_list.has_key?(name)
           pigeon_list[name] = {}
-        elsif
-          !pigeon_list[name].has_value?()
+        elsif !pigeon_list[name].has_value?(attribute)
+          pigeon_list[name]
+          
         end
         binding.pry
       }
