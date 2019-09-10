@@ -8,13 +8,12 @@ def nyc_pigeon_organizer(data)
     
       names.map { |name|
       
+      
+      
       binding.pry  
       
       }
-    
     }
-    
-    
   }
   pigeon_list
 end
