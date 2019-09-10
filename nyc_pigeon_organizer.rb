@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
         elsif
           pigeon_list[name][key] << attribute.to_s
         end
+        binding.pry
       }
     }
   }
