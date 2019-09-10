@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
         end
         if !pigeon_list.has_value(attribute)
           pigeon_list[name] = attribute
+        end
       binding.pry
       }
     }
