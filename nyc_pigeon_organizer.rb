@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.has_key?(name)
           pigeon_list[name] = {}
         end
+        if !pigeon_list.has_value?(key)
+          pigeon_list[name][key].push(attribute.to_s)
         binding.pry
       }
       
