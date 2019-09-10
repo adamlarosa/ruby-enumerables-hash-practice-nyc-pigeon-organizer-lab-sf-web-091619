@@ -1,3 +1,11 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  pigon_list = {}
+  data.map { |key, value|
+  
+  binding.pry
+
+  }
+  pigon_list
 end
