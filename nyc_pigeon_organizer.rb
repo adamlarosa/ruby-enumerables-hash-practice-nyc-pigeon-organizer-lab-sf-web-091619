@@ -9,10 +9,7 @@ def nyc_pigeon_organizer(data)
         if pigeon_list.has_key?(name)
           #binding.pry
         elsif
-          pigeon_list[name] = {
-            color: attribute
-            
-          }
+          pigeon_list[name]
         end
         
       
