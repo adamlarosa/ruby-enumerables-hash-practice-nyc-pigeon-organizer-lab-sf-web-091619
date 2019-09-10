@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.has_value?(key)
           pigeon_list[name][key] << attribute.to_s # THIS IS THE TROUBLE LINE
         end
-        binding.pry
+        #binding.pry
       }
     }
   }
