@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if !pigon_list.has_key?(name)
           pigeon_list[name] = name
         end
-        binding.pry
+        #binding.pry
       
       }
     }
