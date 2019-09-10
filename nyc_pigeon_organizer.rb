@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][key] = []
         end
       }
-      binding.pry
+      pigeon_list[name][key].push(attribute.to_s)
     }
   }
   pigeon_list
