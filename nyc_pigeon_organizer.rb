@@ -1,12 +1,12 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  pigon_list = {}
+  pigeon_list = {}
   data.map { |key, value|
     value.map { |attribute, names| 
       names.each { |name|
       
-        if pigon_list.has_key?(name)
+        if pigeon_list.has_key?(name)
           
         elsif
           pigeon_list[name] = name
@@ -16,5 +16,5 @@ def nyc_pigeon_organizer(data)
       }
     }
   }
-  pigon_list
+  pigeon_list
 end
