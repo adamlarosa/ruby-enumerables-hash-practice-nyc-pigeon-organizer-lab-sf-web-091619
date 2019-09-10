@@ -10,7 +10,9 @@ def nyc_pigeon_organizer(data)
           binding.pry
         elsif
           pigeon_list[name] = {
-            color: 
+            color: attribute,
+            gender: ,
+            lives: 
           }
         end
         
