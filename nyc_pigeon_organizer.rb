@@ -6,7 +6,9 @@ def nyc_pigeon_organizer(data)
     value.map { |attribute, names| 
       names.each { |name|
       
-        if !pigon_list.has_key?(name)
+        if pigon_list.has_key?(name)
+          
+        elsif
           pigeon_list[name] = name
         end
         #binding.pry
